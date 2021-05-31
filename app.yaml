@@ -1,0 +1,10 @@
+runtime: nodejs14
+service: default
+env_variables:
+  NODE_ENV: 'development'
+  TZ: 'Asia/Tokyo'
+handlers:
+  - url: /.*
+    secure: always
+    script: auto
+    redirect_http_response_code: 301

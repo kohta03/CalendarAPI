@@ -1,0 +1,9 @@
+{
+  "extends": "./coding-config/tsconfig/tsconfig.base.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["es2017", "ESNext.AsyncIterable"],
+    "types": ["node"],
+    "outDir": "./build"
+  }
+}
